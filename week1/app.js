@@ -4,4 +4,4 @@ const routes = require('./routes');
 
 const server = http.createServer(routes);
 
-server.listen(process.env.port || 3000);
+server.listen(process.env.PORT || 3000);
