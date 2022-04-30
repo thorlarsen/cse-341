@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.0",
     "mongodb": "^4.5.0"
   },
   "name": "mongodb-practice",
   "version": "1.0.0",
   "description": "Mongodb practice",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
